@@ -1,5 +1,5 @@
 import { NavLink, Link } from 'react-router-dom';
-import { FaGun } from 'react-icons/fa6';
+
 
 import clsx from 'clsx';
 import style from './AppBar.module.css';
@@ -14,8 +14,7 @@ export const AppBar = () => {
       <Link to="/" className={style.logo}>
         Evening
         <span className={style.logoIcon}>
-          <FaGun />
-        </span>
+         </span>
         movie
       </Link>
       <nav className={style.nav}>
