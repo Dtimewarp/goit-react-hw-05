@@ -1,5 +1,5 @@
 import { NavLink, Link } from 'react-router-dom';
-
+import { BiHome } from "react-icons/bi";
 
 import clsx from 'clsx';
 import style from './AppBar.module.css';
@@ -12,10 +12,7 @@ export const AppBar = () => {
   return (
     <header className={style.header}>
       <Link to="/" className={style.logo}>
-        Evening
-        <span className={style.logoIcon}>
-        </span>
-        movie
+      <BiHome size={50}/>
       </Link>
       <nav className={style.nav}>
         <NavLink to="/" className={buildLinkClass}>

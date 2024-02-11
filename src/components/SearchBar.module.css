@@ -3,10 +3,12 @@
   align-items: center;
   justify-content: flex-start;
   margin-bottom: 20px;
+  
 }
 
 .form {
   position: relative;
+  margin: 0 auto;
 }
 
 .input {
@@ -14,10 +16,10 @@
   width: 345px;
   height: 40px;
   border: none;
-  border-bottom: 1px solid #7DF9FF;
+  border-bottom: 1px solid white;
   background-color: transparent;
   outline: none;
-  color: #7DF9FF;
+  color: white;
 }
 
 .btn {

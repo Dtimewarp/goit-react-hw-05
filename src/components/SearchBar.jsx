@@ -24,7 +24,7 @@ export const SearchBar = ({ onSubmit, setSearchParams }) => {
           placeholder="Search video ... "
         />
         <button className={css.btn} type="submit">
-          <IconContext.Provider value={{ color: 'wheat', size: 20 }}>
+          <IconContext.Provider value={{ color: 'black', size: 20 }}>
             <IoSearch />
           </IconContext.Provider>
         </button>
