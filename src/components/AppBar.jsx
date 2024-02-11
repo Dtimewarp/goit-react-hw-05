@@ -14,7 +14,7 @@ export const AppBar = () => {
       <Link to="/" className={style.logo}>
         Evening
         <span className={style.logoIcon}>
-         </span>
+        </span>
         movie
       </Link>
       <nav className={style.nav}>

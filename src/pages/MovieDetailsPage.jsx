@@ -34,7 +34,7 @@ export default function MovieDetailsPage() {
 
   return (
     <main>
-      <BackLink to={backLinkRef.current ?? '/movies'}>Back to movies</BackLink>
+      <BackLink to={backLinkRef.current ?? '/movies'}>Go back to movies</BackLink>
 
       {error && <ErrorMessage />}
 

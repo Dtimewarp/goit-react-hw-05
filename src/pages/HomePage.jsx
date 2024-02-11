@@ -47,7 +47,7 @@ export default function HomePage() {
 
   return (
     <main>
-      <h1>Trending movie today</h1>
+      <h1>Trending movie</h1>
       
       {error && <ErrorMessage />}
 

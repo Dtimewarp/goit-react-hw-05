@@ -14,10 +14,10 @@
   width: 345px;
   height: 40px;
   border: none;
-  border-bottom: 1px solid wheat;
+  border-bottom: 1px solid #7DF9FF;
   background-color: transparent;
   outline: none;
-  color: wheat;
+  color: #7DF9FF;
 }
 
 .btn {
