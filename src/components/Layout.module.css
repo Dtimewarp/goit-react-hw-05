@@ -1,0 +1,25 @@
+.header {
+  position: fixed;
+  display: flex;
+  top: 0;
+  width: 100%;
+  padding: 12px 12px;
+  gap: 32px;
+  font-size: 28px;
+  align-items: center;
+  background-color: #242424;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+.link {
+  text-decoration: none;
+}
+.link:hover {
+  color: yellow;
+}
+.active {
+  color: yellow;
+}

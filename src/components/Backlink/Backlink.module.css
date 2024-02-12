@@ -1,0 +1,11 @@
+.backlink {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 80px 0;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+

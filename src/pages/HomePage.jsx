@@ -26,6 +26,14 @@ export default function HomePage() {
         });
         setTotalPages(response.total_pages);
 
+        // setMovieList(prev => {
+        //   const uniqueArrey = deleteObjDuplicates([
+        //     ...prev,
+        //     ...response.results,
+        //   ]);
+        //   return uniqueArrey;
+        // });
+
         setMovieList(prev => [...prev, ...response.results]);
       } catch (error) {
         if (error.code !== 'ERR_CANCELED') {
@@ -47,8 +55,11 @@ export default function HomePage() {
 
   return (
     <main>
-      <h1>Trending movie</h1>
-      
+      <h1>Trending movie today</h1>
+      {/* <marquee behavior="scroll" direction="left">
+        Trending movie today
+      </marquee> */}
+
       {error && <ErrorMessage />}
 
       {movieList.length > 0 && <MovieList movieList={movieList} />}
